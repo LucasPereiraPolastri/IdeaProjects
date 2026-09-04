@@ -3,13 +3,14 @@
 public class Main {
     public static void main(String[] args) {
 
-        ProdutosG2 produtosG2 = new ProdutosG2<>(1, "almo", );
+        Codigo<String, Integer> codigo = new Codigo<>("Almo",5);
+
+        ValorM valorM = new ValorM(50.00);
+
+        ProdutosG2<Codigo <String, Integer>, ValorM> produtosG2 = new ProdutosG2<>(codigo, "Carrinho", valorM);
 
 
-
-
-
-
+        System.out.println(produtosG2);
 
         }
     }

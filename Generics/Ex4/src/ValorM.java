@@ -15,9 +15,8 @@ public class ValorM {
 
     }
 
-
-
-
-
-
+    @Override
+    public String toString() {
+        return valor + "" ;
+    }
 }

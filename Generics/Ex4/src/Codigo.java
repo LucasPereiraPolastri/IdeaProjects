@@ -23,7 +23,11 @@ public class Codigo<T, U> {
         this.numero = numero;
     }
 
+    @Override
+    public String toString() {
+        return setor + "" + numero;
 
+    }
 }
 
 
