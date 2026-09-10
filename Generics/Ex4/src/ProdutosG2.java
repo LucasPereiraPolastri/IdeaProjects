@@ -20,8 +20,8 @@ public class ProdutosG2<T,U> {
 
     @Override
     public String toString() {
-        return "ProdutoG2 {" + "codigo=" + codigo + ", descricao=" +
-                descricao + ", preco= " + preco + "}";
+        return "ProdutoG2 " + " codigo = "  + codigo + ", descricao = " +
+                descricao + ", preco = " + preco + "";
     }
 }
 
