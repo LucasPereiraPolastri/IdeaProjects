@@ -2,6 +2,8 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
+
+
         ArrayList<String> playlist = new ArrayList<>();
 
         playlist.add(" Evidencias ");
@@ -24,6 +26,12 @@ public class Main {
 
         for (String musica : playlist) {
             System.out.println("- " + musica);
+        }
+
+        if (playlist.contains(" Evidencias ")){
+            System.out.println(" Contem a musica Evidencias ");
+        }else{
+            System.out.println(" Não contém a musica Evidencias na playlist ");
         }
     }
 }

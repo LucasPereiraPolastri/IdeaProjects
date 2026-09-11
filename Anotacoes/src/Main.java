@@ -6,8 +6,8 @@ import java.time.Period;
 public class Main {
     public static void main(String[] args) {
 
-        Usuario usuario = new Usuario("Bruno", "09700620956", LocalDate.of(1995, Month.MARCH,14));
-        System.out.println(usuario);
+        Usuario usuario = new Usuario("Bruno", "09700620956", LocalDate.of(1999, Month.MAY,13));
+        System.out.println(validador(usuario));
 
 
     }
